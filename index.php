@@ -1,10 +1,7 @@
 <?php
 
-$task = [
-    'title' => 'Finish homework',
-    'due'   => 'today',
-    'assigned_to' => 'Jeffrey',
-    'completed' => false
-];
+require 'functions.php';
+
+dd(['dog', 'cat']);
 
 require 'index.view.php';
